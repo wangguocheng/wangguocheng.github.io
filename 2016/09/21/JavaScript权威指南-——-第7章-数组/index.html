@@ -5,7 +5,7 @@
   
 
 
-<html class="theme-next mist use-motion">
+<html class="theme-next pisces use-motion">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="JavaScript权威指南," />
 
 
 
@@ -88,9 +88,9 @@
 <meta property="og:type" content="article">
 <meta property="og:title" content="JavaScript权威指南 —— 第7章 数组">
 <meta property="og:url" content="http://yoursite.com/2016/09/21/JavaScript权威指南-——-第7章-数组/index.html">
-<meta property="og:site_name" content="汪国成的个人博客">
+<meta property="og:site_name" content="ThinkMan的个人博客">
 <meta property="og:description" content="数组数组是值的有序集合。每一个值叫做一个元素，而每一个元素在数组中有一个位置，以数字表示，称为索引。JavaScript数组是无类型的：数组元素可以是任意类型，并且同一个数组中的不同元素也可能有不同的类型。数组的元素甚至也可能是对象或其他数组。JavaScript数组是动态的：根据需要它们会增长或缩减，并且在创建数组时无需声明一个固定的大小或者在数组大小变化时无须重新分配空间。JavaScript">
-<meta property="og:updated_time" content="2016-09-20T22:54:02.283Z">
+<meta property="og:updated_time" content="2016-09-21T14:47:52.339Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JavaScript权威指南 —— 第7章 数组">
 <meta name="twitter:description" content="数组数组是值的有序集合。每一个值叫做一个元素，而每一个元素在数组中有一个位置，以数字表示，称为索引。JavaScript数组是无类型的：数组元素可以是任意类型，并且同一个数组中的不同元素也可能有不同的类型。数组的元素甚至也可能是对象或其他数组。JavaScript数组是动态的：根据需要它们会增长或缩减，并且在创建数组时无需声明一个固定的大小或者在数组大小变化时无须重新分配空间。JavaScript">
@@ -100,8 +100,8 @@
 <script type="text/javascript" id="hexo.configuration">
   var NexT = window.NexT || {};
   var CONFIG = {
-    scheme: 'Mist',
-    sidebar: {"position":"left","display":"always"},
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
     fancybox: true,
     motion: true,
     duoshuo: {
@@ -116,7 +116,7 @@
 
   <link rel="canonical" href="http://yoursite.com/2016/09/21/JavaScript权威指南-——-第7章-数组/"/>
 
-  <title> JavaScript权威指南 —— 第7章 数组 | 汪国成的个人博客 </title>
+  <title> JavaScript权威指南 —— 第7章 数组 | ThinkMan的个人博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -157,7 +157,7 @@
   <div class="custom-logo-site-title">
     <a href="/"  class="brand" rel="start">
       <span class="logo-line-before"><i></i></span>
-      <span class="site-title">汪国成的个人博客</span>
+      <span class="site-title">ThinkMan的个人博客</span>
       <span class="logo-line-after"><i></i></span>
     </a>
   </div>
@@ -294,6 +294,25 @@
           </span>
 
           
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/JavaScript权威指南笔记/" itemprop="url" rel="index">
+                    <span itemprop="name">JavaScript权威指南笔记</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
 
           
             
@@ -374,6 +393,12 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/JavaScript权威指南/" rel="tag">#JavaScript权威指南</a>
+          
+        </div>
+      
 
       
 
@@ -436,9 +461,9 @@
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.png"
-               alt="汪国成" />
-          <p class="site-author-name" itemprop="name">汪国成</p>
-          <p class="site-description motion-element" itemprop="description">汪国成的个人博客</p>
+               alt="ThinkMan" />
+          <p class="site-author-name" itemprop="name">ThinkMan</p>
+          <p class="site-description motion-element" itemprop="description">ThinkMan的个人博客</p>
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
@@ -449,7 +474,21 @@
           </div>
 
           
+            <div class="site-state-item site-state-categories">
+              
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">分类</span>
+              
+            </div>
+          
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -475,7 +514,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#数组"><span class="nav-number">1.</span> <span class="nav-text">数组</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#创建数组"><span class="nav-number">1.1.</span> <span class="nav-text">创建数组</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数组长度"><span class="nav-number">1.2.</span> <span class="nav-text">数组长度</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数组元素的添加"><span class="nav-number">1.3.</span> <span class="nav-text">数组元素的添加</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数组方法"><span class="nav-number">1.4.</span> <span class="nav-text">数组方法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#splice"><span class="nav-number">1.4.1.</span> <span class="nav-text">splice()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#push"><span class="nav-number">1.4.2.</span> <span class="nav-text">push()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#toString-NaN"><span class="nav-number">1.4.3.</span> <span class="nav-text">toString()</span></a></li></ol></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#数组"><span class="nav-text">数组</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#创建数组"><span class="nav-text">创建数组</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数组长度"><span class="nav-text">数组长度</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数组元素的添加"><span class="nav-text">数组元素的添加</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#数组方法"><span class="nav-text">数组方法</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#splice"><span class="nav-text">splice()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#push"><span class="nav-text">push()</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#toString-NaN"><span class="nav-text">toString()</span></a></li></ol></li></ol></li></ol></div>
             
           </div>
         </section>
@@ -498,7 +537,7 @@
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">汪国成</span>
+  <span class="author" itemprop="copyrightHolder">ThinkMan</span>
 </div>
 
 <div class="powered-by">
@@ -508,7 +547,7 @@
 <div class="theme-info">
   主题 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
+    NexT.Pisces
   </a>
 </div>
 
@@ -573,6 +612,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
 
   
   <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
